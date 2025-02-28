@@ -1,0 +1,282 @@
+[
+  {
+    "nombre": "Camiseta Real Madrid",
+    "año": "2024/25",
+    "equipacion": "1era",
+    "precio": "20,95",
+    "imagen": "img/realmadrid1.webp"
+  },
+  {
+    "nombre": "Camiseta Real Madrid",
+    "año": "2024/25",
+    "equipacion": "2da",
+    "precio": "20,95",
+    "imagen": "img/realmadrid2.webp"
+  },
+  {
+    "nombre": "Camiseta FC Barcelona",
+    "año": "2024/25",
+    "equipacion": "1era",
+    "precio": "20,95",
+    "imagen": "img/barcelona1.webp"
+  },
+  {
+    "nombre": "Camiseta FC Barcelona",
+    "año": "2024/25",
+    "equipacion": "2da",
+    "precio": "20,95",
+    "imagen": "img/barcelona2.webp"
+  },
+  {
+    "nombre": "Camiseta Atlético de Madrid",
+    "año": "2024/25",
+    "equipacion": "1era",
+    "precio": "20,95",
+    "imagen": "img/atleticomadrid1.webp"
+  },
+  {
+    "nombre": "Camiseta Atlético de Madrid",
+    "año": "2024/25",
+    "equipacion": "2da",
+    "precio": "20,95",
+    "imagen": "img/atleticomadrid2.webp"
+  },
+  {
+    "nombre": "Camiseta Sevilla",
+    "año": "2024/25",
+    "equipacion": "1era",
+    "precio": "20,95",
+    "imagen": "img/sevilla1.webp"
+  },
+  {
+    "nombre": "Camiseta Sevilla",
+    "año": "2024/25",
+    "equipacion": "2da",
+    "precio": "20,95",
+    "imagen": "img/sevilla2.webp"
+  },
+  {
+    "nombre": "Camiseta Betis",
+    "año": "2024/25",
+    "equipacion": "1era",
+    "precio": "20,95",
+    "imagen": "img/betis1.webp"
+  },
+  {
+    "nombre": "Camiseta Betis",
+    "año": "2024/25",
+    "equipacion": "2da",
+    "precio": "20,95",
+    "imagen": "img/betis2.webp"
+  },
+  {
+    "nombre": "Camiseta Real Sociedad",
+    "año": "2024/25",
+    "equipacion": "1era",
+    "precio": "20,95",
+    "imagen": "img/realsociedad1.webp"
+  },
+  {
+    "nombre": "Camiseta Real Sociedad",
+    "año": "2024/25",
+    "equipacion": "2da",
+    "precio": "20,95",
+    "imagen": "img/realsociedad2.webp"
+  },
+  {
+    "nombre": "Camiseta Villarreal",
+    "año": "2024/25",
+    "equipacion": "1era",
+    "precio": "20,95",
+    "imagen": "img/villarreal1.webp"
+  },
+  {
+    "nombre": "Camiseta Villarreal",
+    "año": "2024/25",
+    "equipacion": "2da",
+    "precio": "20,95",
+    "imagen": "img/villarreal2.webp"
+  },
+  {
+    "nombre": "Camiseta Athletic Club",
+    "año": "2024/25",
+    "equipacion": "1era",
+    "precio": "20,95",
+    "imagen": "img/athletic1.webp"
+  },
+  {
+    "nombre": "Camiseta Athletic Club",
+    "año": "2024/25",
+    "equipacion": "2da",
+    "precio": "20,95",
+    "imagen": "img/athletic2.webp"
+  },
+  {
+    "nombre": "Camiseta Valencia",
+    "año": "2024/25",
+    "equipacion": "1era",
+    "precio": "20,95",
+    "imagen": "img/valencia1.webp"
+  },
+  {
+    "nombre": "Camiseta Valencia",
+    "año": "2024/25",
+    "equipacion": "2da",
+    "precio": "20,95",
+    "imagen": "img/valencia2.webp"
+  },
+  {
+    "nombre": "Camiseta Osasuna",
+    "año": "2024/25",
+    "equipacion": "1era",
+    "precio": "20,95",
+    "imagen": "img/osasuna1.webp"
+  },
+  {
+    "nombre": "Camiseta Osasuna",
+    "año": "2024/25",
+    "equipacion": "2da",
+    "precio": "20,95",
+    "imagen": "img/osasuna2.webp"
+  },
+  {
+    "nombre": "Camiseta Celta de Vigo",
+    "año": "2024/25",
+    "equipacion": "1era",
+    "precio": "20,95",
+    "imagen": "img/celta1.webp"
+  },
+  {
+    "nombre": "Camiseta Celta de Vigo",
+    "año": "2024/25",
+    "equipacion": "2da",
+    "precio": "20,95",
+    "imagen": "img/celta2.webp"
+  },
+  {
+    "nombre": "Camiseta Rayo Vallecano",
+    "año": "2024/25",
+    "equipacion": "1era",
+    "precio": "20,95",
+    "imagen": "img/rayo1.webp"
+  },
+  {
+    "nombre": "Camiseta Rayo Vallecano",
+    "año": "2024/25",
+    "equipacion": "2da",
+    "precio": "20,95",
+    "imagen": "img/rayo2.webp"
+  },
+  {
+    "nombre": "Camiseta Alavés",
+    "año": "2024/25",
+    "equipacion": "1era",
+    "precio": "20,95",
+    "imagen": "img/alaves1.webp"
+  },
+  {
+    "nombre": "Camiseta Alavés",
+    "año": "2024/25",
+    "equipacion": "2da",
+    "precio": "20,95",
+    "imagen": "img/alaves2.webp"
+  },
+  {
+    "nombre": "Camiseta RCD Espanyol",
+    "año": "2024/25",
+    "equipacion": "1era",
+    "precio": "20,95",
+    "imagen": "img/espanyol1.webp"
+  },
+  {
+    "nombre": "Camiseta RCD Espanyol",
+    "año": "2024/25",
+    "equipacion": "2da",
+    "precio": "20,95",
+    "imagen": "img/espanyol2.webp"
+  },
+  {
+    "nombre": "Camiseta Las Palmas",
+    "año": "2024/25",
+    "equipacion": "1era",
+    "precio": "20,95",
+    "imagen": "img/laspalmas1.webp"
+  },
+  {
+    "nombre": "Camiseta Las Palmas",
+    "año": "2024/25",
+    "equipacion": "2da",
+    "precio": "20,95",
+    "imagen": "img/laspalmas2.webp"
+  },
+  {
+    "nombre": "Camiseta Getafe",
+    "año": "2024/25",
+    "equipacion": "1era",
+    "precio": "20,95",
+    "imagen": "img/getafe1.webp"
+  },
+  {
+    "nombre": "Camiseta Getafe",
+    "año": "2024/25",
+    "equipacion": "2da",
+    "precio": "20,95",
+    "imagen": "img/getafe2.webp"
+  },
+  {
+    "nombre": "Camiseta Mallorca",
+    "año": "2024/25",
+    "equipacion": "1era",
+    "precio": "20,95",
+    "imagen": "img/mallorca1.webp"
+  },
+  {
+    "nombre": "Camiseta Mallorca",
+    "año": "2024/25",
+    "equipacion": "2da",
+    "precio": "20,95",
+    "imagen": "img/mallorca2.webp"
+  },
+  {
+    "nombre": "Camiseta Leganés",
+    "año": "2024/25",
+    "equipacion": "1era",
+    "precio": "20,95",
+    "imagen": "img/leganes1.webp"
+  },
+  {
+    "nombre": "Camiseta Leganés",
+    "año": "2024/25",
+    "equipacion": "2da",
+    "precio": "20,95",
+    "imagen": "img/leganes2.webp"
+  },
+  {
+    "nombre": "Camiseta Valladolid",
+    "año": "2024/25",
+    "equipacion": "1era",
+    "precio": "20,95",
+    "imagen": "img/valladolid1.webp"
+  },
+  {
+    "nombre": "Camiseta Valladolid",
+    "año": "2024/25",
+    "equipacion": "2da",
+    "precio": "20,95",
+    "imagen": "img/valladolid2.webp"
+  },
+  {
+    "nombre": "Camiseta Girona",
+    "año": "2024/25",
+    "equipacion": "1era",
+    "precio": "20,95",
+    "imagen": "img/girona1.webp"
+  },
+  {
+    "nombre": "Camiseta Girona",
+    "año": "2024/25",
+    "equipacion": "2da",
+    "precio": "20,95",
+    "imagen": "img/girona2.webp"
+  }
+]

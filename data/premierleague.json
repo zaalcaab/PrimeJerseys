@@ -1,0 +1,282 @@
+[
+  {
+    "nombre": "Camiseta Manchester City",
+    "año": "2024/25",
+    "equipacion": "1era",
+    "precio": "20,95",
+    "imagen": "/img/mancity1.webp"
+  },
+  {
+    "nombre": "Camiseta Manchester City",
+    "año": "2024/25",
+    "equipacion": "2da",
+    "precio": "20,95",
+    "imagen": "/img/mancity2.webp"
+  },
+  {
+    "nombre": "Camiseta Liverpool",
+    "año": "2024/25",
+    "equipacion": "1era",
+    "precio": "20,95",
+    "imagen": "/img/liverpool1.webp"
+  },
+  {
+    "nombre": "Camiseta Liverpool",
+    "año": "2024/25",
+    "equipacion": "2da",
+    "precio": "20,95",
+    "imagen": "/img/liverpool2.webp"
+  },
+  {
+    "nombre": "Camiseta Chelsea",
+    "año": "2024/25",
+    "equipacion": "1era",
+    "precio": "20,95",
+    "imagen": "/img/chelsea1.webp"
+  },
+  {
+    "nombre": "Camiseta Chelsea",
+    "año": "2024/25",
+    "equipacion": "2da",
+    "precio": "20,95",
+    "imagen": "/img/chelsea2.webp"
+  },
+  {
+    "nombre": "Camiseta Tottenham",
+    "año": "2024/25",
+    "equipacion": "1era",
+    "precio": "20,95",
+    "imagen": "/img/tottenham1.webp"
+  },
+  {
+    "nombre": "Camiseta Tottenham",
+    "año": "2024/25",
+    "equipacion": "2da",
+    "precio": "20,95",
+    "imagen": "/img/tottenham2.webp"
+  },
+  {
+    "nombre": "Camiseta Arsenal",
+    "año": "2024/25",
+    "equipacion": "1era",
+    "precio": "20,95",
+    "imagen": "/img/arsenal1.webp"
+  },
+  {
+    "nombre": "Camiseta Arsenal",
+    "año": "2024/25",
+    "equipacion": "2da",
+    "precio": "20,95",
+    "imagen": "/img/arsenal2.webp"
+  },
+  {
+    "nombre": "Camiseta Manchester United",
+    "año": "2024/25",
+    "equipacion": "1era",
+    "precio": "20,95",
+    "imagen": "/img/manutd1.webp"
+  },
+  {
+    "nombre": "Camiseta Manchester United",
+    "año": "2024/25",
+    "equipacion": "2da",
+    "precio": "20,95",
+    "imagen": "/img/manutd2.webp"
+  },
+  {
+    "nombre": "Camiseta West Ham",
+    "año": "2024/25",
+    "equipacion": "1era",
+    "precio": "20,95",
+    "imagen": "/img/westham1.webp"
+  },
+  {
+    "nombre": "Camiseta West Ham",
+    "año": "2024/25",
+    "equipacion": "2da",
+    "precio": "20,95",
+    "imagen": "/img/westham2.webp"
+  },
+  {
+    "nombre": "Camiseta Ipswich Town",
+    "año": "2024/25",
+    "equipacion": "1era",
+    "precio": "20,95",
+    "imagen": "/img/ipswich1.webp"
+  },
+  {
+    "nombre": "Camiseta Ipswich Town",
+    "año": "2024/25",
+    "equipacion": "2da",
+    "precio": "20,95",
+    "imagen": "/img/ipswich2.webp"
+  },
+  {
+    "nombre": "Camiseta Brighton",
+    "año": "2024/25",
+    "equipacion": "1era",
+    "precio": "20,95",
+    "imagen": "/img/brighton1.webp"
+  },
+  {
+    "nombre": "Camiseta Brighton",
+    "año": "2024/25",
+    "equipacion": "2da",
+    "precio": "20,95",
+    "imagen": "/img/brighton2.webp"
+  },
+  {
+    "nombre": "Camiseta Wolves",
+    "año": "2024/25",
+    "equipacion": "1era",
+    "precio": "20,95",
+    "imagen": "/img/wolves1.webp"
+  },
+  {
+    "nombre": "Camiseta Wolves",
+    "año": "2024/25",
+    "equipacion": "2da",
+    "precio": "20,95",
+    "imagen": "/img/wolves2.webp"
+  },
+  {
+    "nombre": "Camiseta Newcastle",
+    "año": "2024/25",
+    "equipacion": "1era",
+    "precio": "20,95",
+    "imagen": "/img/newcastle1.webp"
+  },
+  {
+    "nombre": "Camiseta Newcastle",
+    "año": "2024/25",
+    "equipacion": "2da",
+    "precio": "20,95",
+    "imagen": "/img/newcastle2.webp"
+  },
+  {
+    "nombre": "Camiseta Crystal Palace",
+    "año": "2024/25",
+    "equipacion": "1era",
+    "precio": "20,95",
+    "imagen": "/img/crystalpalace1.webp"
+  },
+  {
+    "nombre": "Camiseta Crystal Palace",
+    "año": "2024/25",
+    "equipacion": "2da",
+    "precio": "20,95",
+    "imagen": "/img/crystalpalace2.webp"
+  },
+  {
+    "nombre": "Camiseta Brentford",
+    "año": "2024/25",
+    "equipacion": "1era",
+    "precio": "20,95",
+    "imagen": "/img/brentford1.webp"
+  },
+  {
+    "nombre": "Camiseta Brentford",
+    "año": "2024/25",
+    "equipacion": "2da",
+    "precio": "20,95",
+    "imagen": "/img/brentford2.webp"
+  },
+  {
+    "nombre": "Camiseta Aston Villa",
+    "año": "2024/25",
+    "equipacion": "1era",
+    "precio": "20,95",
+    "imagen": "/img/astonvilla1.webp"
+  },
+  {
+    "nombre": "Camiseta Aston Villa",
+    "año": "2024/25",
+    "equipacion": "2da",
+    "precio": "20,95",
+    "imagen": "/img/astonvilla2.webp"
+  },
+  {
+    "nombre": "Camiseta Southampton",
+    "año": "2024/25",
+    "equipacion": "1era",
+    "precio": "20,95",
+    "imagen": "/img/southampton1.webp"
+  },
+  {
+    "nombre": "Camiseta Southampton",
+    "año": "2024/25",
+    "equipacion": "2da",
+    "precio": "20,95",
+    "imagen": "/img/southampton2.webp"
+  },
+  {
+    "nombre": "Camiseta Everton",
+    "año": "2024/25",
+    "equipacion": "1era",
+    "precio": "20,95",
+    "imagen": "/img/everton1.webp"
+  },
+  {
+    "nombre": "Camiseta Everton",
+    "año": "2024/25",
+    "equipacion": "2da",
+    "precio": "20,95",
+    "imagen": "/img/everton2.webp"
+  },
+  {
+    "nombre": "Camiseta Leicester City",
+    "año": "2024/25",
+    "equipacion": "1era",
+    "precio": "20,95",
+    "imagen": "/img/leicester1.webp"
+  },
+  {
+    "nombre": "Camiseta Leicester City",
+    "año": "2024/25",
+    "equipacion": "2da",
+    "precio": "20,95",
+    "imagen": "/img/leicester2.webp"
+  },
+  {
+    "nombre": "Camiseta Fulham",
+    "año": "2024/25",
+    "equipacion": "1era",
+    "precio": "20,95",
+    "imagen": "/img/fulham1.webp"
+  },
+  {
+    "nombre": "Camiseta Fulham",
+    "año": "2024/25",
+    "equipacion": "2da",
+    "precio": "20,95",
+    "imagen": "/img/fulham2.webp"
+  },
+  {
+    "nombre": "Camiseta Bournemouth",
+    "año": "2024/25",
+    "equipacion": "1era",
+    "precio": "20,95",
+    "imagen": "/img/bournemouth1.webp"
+  },
+  {
+    "nombre": "Camiseta Bournemouth",
+    "año": "2024/25",
+    "equipacion": "2da",
+    "precio": "20,95",
+    "imagen": "/img/bournemouth2.webp"
+  },
+  {
+    "nombre": "Camiseta Nottingham Forest",
+    "año": "2024/25",
+    "equipacion": "1era",
+    "precio": "20,95",
+    "imagen": "/img/nottinghamforest1.webp"
+  },
+  {
+    "nombre": "Camiseta Nottingham Forest",
+    "año": "2024/25",
+    "equipacion": "2da",
+    "precio": "20,95",
+    "imagen": "/img/nottinghamforest2.webp"
+  }
+]
