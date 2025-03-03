@@ -14,10 +14,19 @@ function cargarCamisetas(jsonPath) {
       <p>Año: ${camiseta.año}</p>
       <p>Equipación: ${camiseta.equipacion}</p>
       <p>Precio: ${camiseta.precio}€</p>
-      <button>Añadir al carrito</button>
+      <button onclick="seleccionarCamiseta('${camiseta.nombre}', '${camiseta.precio}')">
+          Personalizar y Comprar
+        </button>
     `;
     contenedor.appendChild(productoDiv);
   });
 })
 .catch(error => console.error('Error al cargar las camisetas:', error));
 }
+
+function seleccionarCamiseta(nombre, precio) {
+    localStorage.setItem('productoNombre', nombre);
+    localStorage.setItem('productoPrecio', precio);
+    // Cambia a la página de personalización
+    window.location.href = 'pedidos.html';
+  }

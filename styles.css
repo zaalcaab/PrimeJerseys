@@ -14,6 +14,10 @@
   }
 
 
+  html {
+    scroll-behavior: smooth;
+  }
+  
 
   
   /* Estilos generales */
@@ -42,6 +46,7 @@
   header h1 {
     font-family: 'Pierce Jameson Sans', sans-serif;
     padding-top: 10px;
+    padding-right: 20px;
     font-size: 50px;
     margin: 0;
   }
@@ -56,6 +61,7 @@
     color: black;
     text-align: center;
     margin-bottom: 20px;
+    font-size: 40px;
   }
   
   /* Cuadrícula de productos */
@@ -77,10 +83,14 @@
   }
   
   .producto img {
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
+    width: 200px;       /* Ancho fijo, ajusta a tu gusto */
+    height: 250px;      /* Alto fijo */
+    object-fit: cover;  /* Recorta la imagen si la proporción es distinta */
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px; /* Si quieres esquinas redondeadas */
   }
+  
   
   .producto h3 {
     color: black;
@@ -106,5 +116,183 @@
   
   .producto button:hover {
     background-color: #0056b3;
+  }
+  
+
+
+
+  
+  .hero-section {
+    /* El fondo está definido inline en el HTML con style=..., pero puedes hacerlo aquí si prefieres */
+    height: 60vh; /* Ajusta la altura */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px 20px;
+    /* Si la imagen no llena todo, puedes usar un color de fallback */
+    background-color: #f5f5f5;
+  }
+  
+  .hero-content {
+    max-width: 600px;
+    color: white; /* Ajusta el color de texto según el fondo */
+  }
+  
+  .hero-content h2 {
+    font-family: 'Pierce Jameson Sans', sans-serif;
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero-button {
+    display: inline-block;
+    background-color: #007BFF;
+    color: white;
+    font-size: 1rem;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .hero-button:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  /* ============================================= */
+  /* SECCIÓN LIGAS */
+  /* ============================================= */
+  .ligas-section {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .ligas-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .liga-card {
+    background-color: white;
+    width: 200px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .liga-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .liga-card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .liga-card h3 {
+    font-family: 'Pierce Jameson Sans', sans-serif;
+    color: black;
+    margin-bottom: 10px;
+  }
+  
+  .liga-button {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .liga-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .liga-card img {
+    width: 150px;          /* Ancho fijo */
+    height: 150px;         /* Alto fijo */
+    object-fit: contain;   /* Ajusta la imagen sin recortarla */
+    display: block;        /* Para que respete el margen automático */
+    margin: 0 auto 10px;   /* Centra la imagen y deja espacio abajo */
+  }
+  
+/* ============================= */
+/* FOOTER PROFESIONAL            */
+/* ============================= */
+.footer {
+    background-color: black;
+    color: #fff;
+    padding: 40px 20px;
+    display: flex;
+    flex-wrap: wrap;            /* Permite que baje a varias líneas en pantallas pequeñas */
+    justify-content: space-between;
+    align-items: flex-start;     /* Alinea columnas al inicio verticalmente */
+  }
+  
+  .footer-col {
+    flex: 1 1 300px;            /* Cada columna ocupa al menos 300px */
+    margin: 10px;
+  }
+  
+  .footer-logo {
+    width: 80px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-col h4 {
+    font-family: 'Pierce Jameson Sans', sans-serif;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+  }
+  
+  .footer-col p,
+  .footer-col a {
+    color: #fff;
+    text-decoration: none;
+    margin: 5px 0;
+  }
+  
+  .footer-col a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Íconos sociales */
+  .social-icons a {
+    margin-right: 10px;
+    color: #fff;
+    font-size: 1.5rem;           /* Tamaño del ícono */
+    display: inline-block;
+    transition: color 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: #007BFF;              /* Cambia de color al pasar el ratón */
+  }
+  
+  /* Ajustes para pantallas muy pequeñas (mobile) */
+  @media (max-width: 600px) {
+    .footer {
+      flex-direction: column;
+      align-items: center;
+    }
+    .footer-col {
+      margin-bottom: 20px;
+      text-align: center;
+    }
   }
   

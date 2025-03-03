@@ -3,25 +3,112 @@
 <head>
   <meta charset="UTF-8" />
   <title>Prime Jerseys - Home</title>
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
 </head>
 <body>
   <header>
-    <a href="index.html"><img src="img/logo.jpg" alt="logo" class="logo"></a>
+    <a href="index.html">
+      <img src="img/logo.jpg" alt="logo" class="logo" />
+    </a>
     <h1>Prime Jerseys</h1>
   </header>
 
+  <!-- Sección hero con imagen de fondo -->
+  <!-- Sustituye 'img/hero-bg.jpg' por la imagen que prefieras -->
+  <section class="hero-section" style="background: url('img/hero-bg.jpg') no-repeat center center/cover;">
+    <div class="hero-content">
+      <h2>Bienvenido a Prime Jerseys</h2>
+      <p>Encuentra las mejores camisetas de fútbol de las 5 grandes ligas y más</p>
+      <a class="hero-button" href="#ligas">Ver Ligas</a>
+    </div>
+  </section>
+
   <main>
-    <section>
-      <h2>Elige tu liga favorita</h2>
-      <ul>
-        <li><a href="laliga.html">LaLiga</a></li>
-        <li><a href="premierleague.html">Premier League</a></li>
-        <li><a href="seriea.html">Serie A</a></li>
-        <li><a href="bundesliga.html">Bundesliga</a></li>
-        <li><a href="ligue1.html">Ligue 1</a></li>
-      </ul>
+    <section id="ligas" class="ligas-section">
+      <h1>Elige tu liga favorita</h1>
+      <div class="ligas-grid">
+        <!-- Tarjeta de LaLiga -->
+        <div class="liga-card">
+          <img src="img/laliga.png" alt="LaLiga">
+          <h3>LaLiga</h3>
+          <a href="laliga.html" class="liga-button">Entrar</a>
+        </div>
+
+        <!-- Tarjeta de Premier League -->
+        <div class="liga-card">
+          <img src="img/premierleague.png" alt="Premier League">
+          <h3>Premier League</h3>
+          <a href="premierleague.html" class="liga-button">Entrar</a>
+        </div>
+
+        <!-- Tarjeta de Serie A -->
+        <div class="liga-card">
+          <img src="img/seriea.png" alt="Serie A">
+          <h3>Serie A</h3>
+          <a href="seriea.html" class="liga-button">Entrar</a>
+        </div>
+
+        <!-- Tarjeta de Bundesliga -->
+        <div class="liga-card">
+          <img src="img/bundesliga.png" alt="Bundesliga">
+          <h3>Bundesliga</h3>
+          <a href="bundesliga.html" class="liga-button">Entrar</a>
+        </div>
+
+        <!-- Tarjeta de Ligue 1 -->
+        <div class="liga-card">
+          <img src="img/ligue1.png" alt="Ligue 1">
+          <h3>Ligue 1</h3>
+          <a href="ligue1.html" class="liga-button">Entrar</a>
+        </div>
+
+        <!-- Tarjeta de Personalizadas -->
+        <div class="liga-card">
+          <img src="img/custom.png" alt="Personalizadas">
+          <h3>Personalizadas</h3>
+          <a href="personalizadas.html" class="liga-button">Entrar</a>
+        </div>
+      </div>
     </section>
   </main>
+
+  <!-- Footer con información de contacto -->
+  <!-- Footer con 3 columnas -->
+<footer class="footer">
+    <div class="footer-col">
+      <!-- Logo y copyright -->
+      <img src="img/logo.jpg" alt="Prime Jerseys logo" class="footer-logo">
+      <p>© 2025 Prime Jerseys</p>
+    </div>
+  
+    <div class="footer-col">
+      <!-- Información de contacto -->
+      <h4>Contacto</h4>
+      <p>
+        <i class="far fa-envelope"></i> 
+        <a href="mailto:contact.primejersey@gmail.com">contact.primejersey@gmail.com</a>
+      </p>
+      <p>
+        <i class="fab fa-instagram"></i> 
+        <a href="https://www.instagram.com/primejerseys.es" target="_blank">@primejerseys.es</a>
+      </p>
+      <p>
+        <i class="fab fa-tiktok"></i>
+        <a href="https://www.tiktok.com/@primejerseys.es" target="_blank">@primejerseys.es</a>
+      </p>
+    </div>
+  
+    <div class="footer-col">
+      <!-- Redes sociales -->
+      <h4>Síguenos</h4>
+      <p>Únete a nuestra comunidad</p>
+      <div class="social-icons">
+        <a href="https://www.instagram.com/primejerseys.es" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.tiktok.com/@primejerseys.es" target="_blank"><i class="fab fa-tiktok"></i></a>
+      </div>
+    </div>
+  </footer>
+  
 </body>
 </html>
