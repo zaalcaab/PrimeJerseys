@@ -14,7 +14,7 @@ function cargarCamisetas(jsonPath) {
       <p>Año: ${camiseta.año}</p>
       <p>Equipación: ${camiseta.equipacion}</p>
       <p>Precio: ${camiseta.precio}€</p>
-      <button onclick="seleccionarCamiseta('${camiseta.nombre}', '${camiseta.precio}')">
+      <button onclick="seleccionarCamiseta('${camiseta.nombre}', '${camiseta.precio}', '${camiseta.equipacion}', '${camiseta.año}')">
           Personalizar y Comprar
         </button>
     `;
@@ -24,9 +24,11 @@ function cargarCamisetas(jsonPath) {
 .catch(error => console.error('Error al cargar las camisetas:', error));
 }
 
-function seleccionarCamiseta(nombre, precio) {
-    localStorage.setItem('productoNombre', nombre);
+function seleccionarCamiseta(nombre, precio, equipacion, año) {
+    localStorage.setItem('productoNombre', nombre + " " + equipacion + " equipación " + año);
     localStorage.setItem('productoPrecio', precio);
     // Cambia a la página de personalización
-    window.location.href = 'pedidos.html';
+    window.location.href = 'formulariopedidos.html';
   }
+
+

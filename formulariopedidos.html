@@ -2,67 +2,144 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <title>Personalizar Camiseta</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personalizar Camiseta - Prime Jerseys</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <!-- SDK de EmailJS -->
+  <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+  </script>
+  <script type="text/javascript">
+    (function(){
+      emailjs.init({
+        publicKey: "rbk_AWAhRvpHRKLlI",
+      });
+    })();
+  </script>
 </head>
 <body>
-  <h1>Personaliza tu Camiseta</h1>
+  <!-- Header consistente con el resto de la web -->
+  <header>
+    <a href="index.html">
+      <img src="img/logo.jpg" alt="logo" class="logo" />
+    </a>
+    <h1>Prime Jerseys</h1>
+  </header>
 
-  <div id="productoInfo"></div>
+  <main class="container">
+    <h1 class="titulo-principal">Personaliza tu Camiseta</h1>
 
-  <form id="personalizarForm">
-    <label for="nombrePersonalizado">Nombre en la camiseta (opcional):</label><br>
-    <input type="text" id="nombrePersonalizado" name="nombrePersonalizado" placeholder="Ej. Messi" />
-    <br><br>
+    <!-- Sección de información del producto -->
+    <section id="productoInfo" class="tarjeta-producto">
+      <h2 id="nombreProducto"></h2>
+      <p class="precio-producto" id="precioProducto"></p>
+    </section>
 
-    <label for="numeroPersonalizado">Número (opcional):</label><br>
-    <input type="number" id="numeroPersonalizado" name="numeroPersonalizado" placeholder="10" />
-    <br><br>
+    <!-- Formulario de personalización -->
+    <form id="personalizarForm" class="formulario-pedido">
+      <section class="seccion-personalizacion">
+        <h3><i class="fas fa-tshirt"></i> Personalización</h3>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="nombrePersonalizado">Nombre (opcional):</label>
+            <input type="text" id="nombrePersonalizado" 
+                   placeholder="Ej: Messi" class="campo-opcional">
+          </div>
+          <div class="form-group">
+            <label for="numeroPersonalizado">Número (opcional):</label>
+            <input type="text" id="numeroPersonalizado" 
+                   placeholder="Ej: 10" class="campo-opcional">
+          </div>
+        </div>
+      </section>
 
-    <button type="submit">Generar enlace de pago</button>
-  </form>
+      <section class="seccion-envio">
+        <h3><i class="fas fa-truck-moving"></i> Datos de envío</h3>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="nombreReceptor">Nombre completo:</label>
+            <input type="text" id="nombreReceptor" required>
+          </div>
+          <div class="form-group">
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" required>
+          </div>
+        </div>
 
-  <div id="pagoInfo"></div>
+        <div class="form-group">
+          <label for="direccion">Dirección completa:</label>
+          <textarea id="direccion" required></textarea>
+        </div>
 
-  <script>
-    // 1) Leemos datos de localStorage
-    const nombreProducto = localStorage.getItem('productoNombre');
-    const precioBase = localStorage.getItem('productoPrecio');
+        <div class="form-row">
+          <div class="form-group">
+            <label for="ciudad">Ciudad:</label>
+            <input type="text" id="ciudad" required>
+          </div>
+          <div class="form-group">
+            <label for="comunidad">Comunidad:</label>
+            <input type="text" id="comunidad" required>
+          </div>
+          <div class="form-group">
+            <label for="pais">País:</label>
+            <input type="text" id="pais" required>
+          </div>
+          <div class="form-group">
+            <label for="codigoPostal">C.P.:</label>
+            <input type="text" id="codigoPostal" required>
+          </div>
+        </div>
 
-    // 2) Mostramos la info de la camiseta
-    const productoInfoDiv = document.getElementById('productoInfo');
-    productoInfoDiv.innerHTML = `
-      <h2>${nombreProducto}</h2>
-      <p>Precio base: ${precioBase} €</p>
-    `;
+        <div class="form-group">
+          <label for="notas">Notas adicionales:</label>
+          <textarea id="notas" placeholder="Ej: Embalaje para regalo"></textarea>
+        </div>
+      </section>
 
-    // 3) Al enviar el formulario, calculamos precio y generamos link de PayPal
-    document.getElementById('personalizarForm').addEventListener('submit', (e) => {
-      e.preventDefault();
-      const nombrePers = document.getElementById('nombrePersonalizado').value.trim();
-      const numeroPers = document.getElementById('numeroPersonalizado').value.trim();
+      <button type="submit" class="boton-principal">
+        <i class="fas fa-arrow-right"></i> Continuar al Pago
+      </button>
+    </form>
 
-      // Convertimos a número
-      let precioFinal = parseFloat(precioBase);
+    <!-- Sección de pago (se muestra dinámicamente) -->
+    <div id="pagoInfo" class="seccion-pago"></div>
+  </main>
+  <script src="pedidos.js"></script>
 
-      // Si personaliza (nombre o número), le añadimos un extra (ejemplo 5€)
-      if (nombrePers !== '' || numeroPers !== '') {
-        precioFinal += 5;
-      }
 
-      // 4) Generamos el link de PayPal.me
-      // Sustituye 'tuUsuario' por tu usuario de PayPal.me
-      const linkPago = `https://paypal.me/primejerseys/${precioFinal}`;
+  <!-- Footer idéntico al resto de la web -->
+  <footer class="footer">
+    <div class="footer-col">
+      <img src="img/logo.jpg" alt="Prime Jerseys logo" class="footer-logo">
+      <p>© 2025 Prime Jerseys</p>
+    </div>
+  
+    <div class="footer-col">
+      <h4>Contacto</h4>
+      <p>
+        <i class="far fa-envelope"></i> 
+        <a href="mailto:contact.primejersey@gmail.com">contact.primejersey@gmail.com</a>
+      </p>
+      <p>
+        <i class="fab fa-instagram"></i> 
+        <a href="https://www.instagram.com/primejerseys.es" target="_blank">@primejerseys.es</a>
+      </p>
+      <p>
+        <i class="fab fa-tiktok"></i>
+        <a href="https://www.tiktok.com/@primejerseys.es" target="_blank">@primejerseys.es</a>
+      </p>
+    </div>
+  
+    <div class="footer-col">
+      <h4>Síguenos</h4>
+      <div class="social-icons">
+        <a href="https://www.instagram.com/primejerseys.es" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.tiktok.com/@primejerseys.es" target="_blank"><i class="fab fa-tiktok"></i></a>
+      </div>
+    </div>
+  </footer>
 
-      // 5) Mostramos el enlace y un mensaje
-      const pagoInfoDiv = document.getElementById('pagoInfo');
-      pagoInfoDiv.innerHTML = `
-        <h3>Enlace de pago:</h3>
-        <a href="${linkPago}" target="_blank">Pagar ${precioFinal}€</a>
-        <p>Por favor, incluye en la nota de PayPal que deseas la camiseta <strong>${nombreProducto}</strong>
-        con nombre <strong>${nombrePers || 'sin nombre'}</strong> y número <strong>${numeroPers || 'sin número'}</strong>.</p>
-      `;
-    });
-  </script>
+  <script src="pedidos.js"></script>
 </body>
 </html>

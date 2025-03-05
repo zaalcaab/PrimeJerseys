@@ -46,7 +46,7 @@
   header h1 {
     font-family: 'Pierce Jameson Sans', sans-serif;
     padding-top: 10px;
-    padding-right: 20px;
+    padding-left: 10px;
     font-size: 50px;
     margin: 0;
   }
@@ -295,4 +295,194 @@
       text-align: center;
     }
   }
+
+
+
+  /* Estilos generales del formulario */
+#personalizarForm {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  color: #333;
+}
+
+#personalizarForm h3 {
+    font-family: 'Pierce Jameson Sans', sans-serif;
+    color: #000;
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 10px;
+    margin: 25px 0 20px;
+    font-size: 1.8rem;
+}
+
+/* Contenedor de campos del formulario */
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Estilos para las etiquetas */
+#personalizarForm label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #000;
+  font-size: 1.1rem;
+}
+
+/* Estilos para los campos de entrada */
+#personalizarForm input,
+#personalizarForm textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    transition: border-color 0.3s ease;
+}
+
+#personalizarForm textarea {
+  height: 100px;
+  resize: vertical;
+}
+
+/* Efecto al enfocar los campos */
+#personalizarForm input:focus,
+#personalizarForm textarea:focus {
+    border-color: #007BFF;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+/* Estilos para el botón de enviar */
+#personalizarForm button[type="submit"] {
+  background-color: #007BFF;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  margin-top: 20px;
+  font-family: 'Pierce Jameson Sans', sans-serif;
+
+}
+
+#personalizarForm button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Estilos para la sección de información del producto */
+#productoInfo {
+  background-color: white;
+  padding: 20px;
+  margin: 30px auto;
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+#productoInfo h2 {
+  font-family: 'Pierce Jameson Sans', sans-serif;
+  color: #000;
+  margin-bottom: 15px;
+  font-size: 1.8rem;
+}
+
+#productoInfo p {
+  font-family: 'Pierce Jameson Sans', sans-serif;
+  color: #000;
+  margin-bottom: 15px;
+}
   
+/* Estilos para la sección de pago */
+#pagoInfo {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 30px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  display: none; /* Oculto inicialmente */
+}
+
+#pagoInfo h3 {
+  font-family: 'Pierce Jameson Sans', sans-serif;
+  color: #000;
+  margin-bottom: 20px;
+  font-size: 1.6rem;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+  #personalizarForm {
+      margin: 20px;
+      padding: 20px;
+  }
+
+  #productoInfo,
+  #pagoInfo {
+      margin: 20px;
+      padding: 20px;
+  }
+}
+
+/* Estilos para campos opcionales */
+input[optional]::placeholder {
+  color: #999;
+  font-style: italic;
+}
+
+/* Estilos para campos requeridos no válidos */
+input:invalid,
+textarea:invalid {
+  border-color: #ff4444;
+}
+
+input:invalid:focus,
+textarea:invalid:focus {
+  box-shadow: 0 0 5px rgba(255, 68, 68, 0.3);
+}
+
+/* Mejoras visuales para grupos de campos */
+.form-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+#pagoInfo {
+  /* Mantén todas las propiedades existentes */
+  display: none; /* Oculto inicialmente */
+  color: #333; /* Añade color de texto */
+}
+
+#pagoInfo a {
+  display: inline-block;
+  background-color: #007BFF;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin: 20px 0;
+  transition: background-color 0.3s ease;
+}
+
+#pagoInfo a:hover {
+  background-color: #0056b3;
+}
+
+#pagoInfo h3 {
+  color: #007BFF;
+}
+
+#pagoInfo p {
+  margin: 10px 0;
+  line-height: 1.6;
+}
