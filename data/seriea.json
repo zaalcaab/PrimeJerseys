@@ -1,0 +1,422 @@
+[
+  {
+    "nombre": "Camiseta AC Monza",
+    "año": "2024/25",
+    "equipacion": "1era",
+    "precio": "20,95",
+    "imagen": "img/seriea/acmonza1.jpg"
+  },
+  {
+    "nombre": "Camiseta AC Monza",
+    "año": "2024/25",
+    "equipacion": "2da",
+    "precio": "20,95",
+    "imagen": "img/seriea/acmonza2.jpg"
+  },
+  {
+    "nombre": "Camiseta AC Monza",
+    "año": "2024/25",
+    "equipacion": "3era",
+    "precio": "20,95",
+    "imagen": "img/seriea/acmonza3.jpg"
+  },
+  {
+    "nombre": "Camiseta AS Roma",
+    "año": "2024/25",
+    "equipacion": "1era",
+    "precio": "20,95",
+    "imagen": "img/seriea/asroma1.jpg"
+  },
+  {
+    "nombre": "Camiseta AS Roma",
+    "año": "2024/25",
+    "equipacion": "2da",
+    "precio": "20,95",
+    "imagen": "img/seriea/asroma2.jpg"
+  },
+  {
+    "nombre": "Camiseta AS Roma",
+    "año": "2024/25",
+    "equipacion": "3era",
+    "precio": "20,95",
+    "imagen": "img/seriea/asroma3.jpg"
+  },
+  {
+    "nombre": "Camiseta Atalanta",
+    "año": "2024/25",
+    "equipacion": "1era",
+    "precio": "20,95",
+    "imagen": "img/seriea/atalanta1.jpg"
+  },
+  {
+    "nombre": "Camiseta Atalanta",
+    "año": "2024/25",
+    "equipacion": "2da",
+    "precio": "20,95",
+    "imagen": "img/seriea/atalanta2.jpg"
+  },
+  {
+    "nombre": "Camiseta Atalanta",
+    "año": "2024/25",
+    "equipacion": "3era",
+    "precio": "20,95",
+    "imagen": "img/seriea/atalanta3.jpg"
+  },
+  {
+    "nombre": "Camiseta Bologna",
+    "año": "2024/25",
+    "equipacion": "1era",
+    "precio": "20,95",
+    "imagen": "img/seriea/bologna1.jpg"
+  },
+  {
+    "nombre": "Camiseta Bologna",
+    "año": "2024/25",
+    "equipacion": "2da",
+    "precio": "20,95",
+    "imagen": "img/seriea/bologna2.jpg"
+  },
+  {
+    "nombre": "Camiseta Bologna",
+    "año": "2024/25",
+    "equipacion": "3era",
+    "precio": "20,95",
+    "imagen": "img/seriea/bologna3.jpg"
+  },
+  {
+    "nombre": "Camiseta Cagliari",
+    "año": "2024/25",
+    "equipacion": "1era",
+    "precio": "20,95",
+    "imagen": "img/seriea/cagliari1.jpg"
+  },
+  {
+    "nombre": "Camiseta Cagliari",
+    "año": "2024/25",
+    "equipacion": "2da",
+    "precio": "20,95",
+    "imagen": "img/seriea/cagliari2.jpg"
+  },
+  {
+    "nombre": "Camiseta Cagliari",
+    "año": "2024/25",
+    "equipacion": "3era",
+    "precio": "20,95",
+    "imagen": "img/seriea/cagliari3.jpg"
+  },
+  {
+    "nombre": "Camiseta Como 1907",
+    "año": "2024/25",
+    "equipacion": "1era",
+    "precio": "20,95",
+    "imagen": "img/seriea/como19071.jpg"
+  },
+  {
+    "nombre": "Camiseta Como 1907",
+    "año": "2024/25",
+    "equipacion": "2da",
+    "precio": "20,95",
+    "imagen": "img/seriea/como19072.jpg"
+  },
+  {
+    "nombre": "Camiseta Como 1907",
+    "año": "2024/25",
+    "equipacion": "3era",
+    "precio": "20,95",
+    "imagen": "img/seriea/como19073.jpg"
+  },
+  {
+    "nombre": "Camiseta Empoli",
+    "año": "2024/25",
+    "equipacion": "1era",
+    "precio": "20,95",
+    "imagen": "img/seriea/empoli1.jpg"
+  },
+  {
+    "nombre": "Camiseta Empoli",
+    "año": "2024/25",
+    "equipacion": "2da",
+    "precio": "20,95",
+    "imagen": "img/seriea/empoli2.jpg"
+  },
+  {
+    "nombre": "Camiseta Empoli",
+    "año": "2024/25",
+    "equipacion": "3era",
+    "precio": "20,95",
+    "imagen": "img/seriea/empoli3.jpg"
+  },
+  {
+    "nombre": "Camiseta Fiorentina",
+    "año": "2024/25",
+    "equipacion": "1era",
+    "precio": "20,95",
+    "imagen": "img/seriea/fiorentina1.jpg"
+  },
+  {
+    "nombre": "Camiseta Fiorentina",
+    "año": "2024/25",
+    "equipacion": "2da",
+    "precio": "20,95",
+    "imagen": "img/seriea/fiorentina2.jpg"
+  },
+  {
+    "nombre": "Camiseta Fiorentina",
+    "año": "2024/25",
+    "equipacion": "3era",
+    "precio": "20,95",
+    "imagen": "img/seriea/fiorentina3.jpg"
+  },
+  {
+    "nombre": "Camiseta Genoa",
+    "año": "2024/25",
+    "equipacion": "1era",
+    "precio": "20,95",
+    "imagen": "img/seriea/genoa1.jpg"
+  },
+  {
+    "nombre": "Camiseta Genoa",
+    "año": "2024/25",
+    "equipacion": "2da",
+    "precio": "20,95",
+    "imagen": "img/seriea/genoa2.jpg"
+  },
+  {
+    "nombre": "Camiseta Genoa",
+    "año": "2024/25",
+    "equipacion": "3era",
+    "precio": "20,95",
+    "imagen": "img/seriea/genoa3.jpg"
+  },
+  {
+    "nombre": "Camiseta Hellas Verona",
+    "año": "2024/25",
+    "equipacion": "1era",
+    "precio": "20,95",
+    "imagen": "img/seriea/hellasverona1.jpg"
+  },
+  {
+    "nombre": "Camiseta Hellas Verona",
+    "año": "2024/25",
+    "equipacion": "2da",
+    "precio": "20,95",
+    "imagen": "img/seriea/hellasverona2.jpg"
+  },
+  {
+    "nombre": "Camiseta Hellas Verona",
+    "año": "2024/25",
+    "equipacion": "3era",
+    "precio": "20,95",
+    "imagen": "img/seriea/hellasverona3.jpg"
+  },
+  {
+    "nombre": "Camiseta Inter de Milán",
+    "año": "2024/25",
+    "equipacion": "1era",
+    "precio": "20,95",
+    "imagen": "img/seriea/interdemilan1.jpg"
+  },
+  {
+    "nombre": "Camiseta Inter de Milán",
+    "año": "2024/25",
+    "equipacion": "2da",
+    "precio": "20,95",
+    "imagen": "img/seriea/interdemilan2.jpg"
+  },
+  {
+    "nombre": "Camiseta Inter de Milán",
+    "año": "2024/25",
+    "equipacion": "3era",
+    "precio": "20,95",
+    "imagen": "img/seriea/interdemilan3.jpg"
+  },
+  {
+    "nombre": "Camiseta Juventus",
+    "año": "2024/25",
+    "equipacion": "1era",
+    "precio": "20,95",
+    "imagen": "img/seriea/juventus1.jpg"
+  },
+  {
+    "nombre": "Camiseta Juventus",
+    "año": "2024/25",
+    "equipacion": "2da",
+    "precio": "20,95",
+    "imagen": "img/seriea/juventus2.jpg"
+  },
+  {
+    "nombre": "Camiseta Juventus",
+    "año": "2024/25",
+    "equipacion": "3era",
+    "precio": "20,95",
+    "imagen": "img/seriea/juventus3.jpg"
+  },
+  {
+    "nombre": "Camiseta Lazio",
+    "año": "2024/25",
+    "equipacion": "1era",
+    "precio": "20,95",
+    "imagen": "img/seriea/lazio1.jpg"
+  },
+  {
+    "nombre": "Camiseta Lazio",
+    "año": "2024/25",
+    "equipacion": "2da",
+    "precio": "20,95",
+    "imagen": "img/seriea/lazio2.jpg"
+  },
+  {
+    "nombre": "Camiseta Lazio",
+    "año": "2024/25",
+    "equipacion": "3era",
+    "precio": "20,95",
+    "imagen": "img/seriea/lazio3.jpg"
+  },
+  {
+    "nombre": "Camiseta AC Milan",
+    "año": "2024/25",
+    "equipacion": "1era",
+    "precio": "20,95",
+    "imagen": "img/seriea/acmilan1.jpg"
+  },
+  {
+    "nombre": "Camiseta AC Milan",
+    "año": "2024/25",
+    "equipacion": "2da",
+    "precio": "20,95",
+    "imagen": "img/seriea/acmilan2.jpg"
+  },
+  {
+    "nombre": "Camiseta AC Milan",
+    "año": "2024/25",
+    "equipacion": "3era",
+    "precio": "20,95",
+    "imagen": "img/seriea/acmilan3.jpg"
+  },
+  {
+    "nombre": "Camiseta Napoli",
+    "año": "2024/25",
+    "equipacion": "1era",
+    "precio": "20,95",
+    "imagen": "img/seriea/napoli1.jpg"
+  },
+  {
+    "nombre": "Camiseta Napoli",
+    "año": "2024/25",
+    "equipacion": "2da",
+    "precio": "20,95",
+    "imagen": "img/seriea/napoli2.jpg"
+  },
+  {
+    "nombre": "Camiseta Napoli",
+    "año": "2024/25",
+    "equipacion": "3era",
+    "precio": "20,95",
+    "imagen": "img/seriea/napoli3.jpg"
+  },
+  {
+    "nombre": "Camiseta Parma",
+    "año": "2024/25",
+    "equipacion": "1era",
+    "precio": "20,95",
+    "imagen": "img/seriea/parma1.jpg"
+  },
+  {
+    "nombre": "Camiseta Parma",
+    "año": "2024/25",
+    "equipacion": "2da",
+    "precio": "20,95",
+    "imagen": "img/seriea/parma2.jpg"
+  },
+  {
+    "nombre": "Camiseta Parma",
+    "año": "2024/25",
+    "equipacion": "3era",
+    "precio": "20,95",
+    "imagen": "img/seriea/parma3.jpg"
+  },
+  {
+    "nombre": "Camiseta Torino",
+    "año": "2024/25",
+    "equipacion": "1era",
+    "precio": "20,95",
+    "imagen": "img/seriea/torino1.jpg"
+  },
+  {
+    "nombre": "Camiseta Torino",
+    "año": "2024/25",
+    "equipacion": "2da",
+    "precio": "20,95",
+    "imagen": "img/seriea/torino2.jpg"
+  },
+  {
+    "nombre": "Camiseta Torino",
+    "año": "2024/25",
+    "equipacion": "3era",
+    "precio": "20,95",
+    "imagen": "img/seriea/torino3.jpg"
+  },
+  {
+    "nombre": "Camiseta US Lecce",
+    "año": "2024/25",
+    "equipacion": "1era",
+    "precio": "20,95",
+    "imagen": "img/seriea/uslecce1.jpg"
+  },
+  {
+    "nombre": "Camiseta US Lecce",
+    "año": "2024/25",
+    "equipacion": "2da",
+    "precio": "20,95",
+    "imagen": "img/seriea/uslecce2.jpg"
+  },
+  {
+    "nombre": "Camiseta US Lecce",
+    "año": "2024/25",
+    "equipacion": "3era",
+    "precio": "20,95",
+    "imagen": "img/seriea/uslecce3.jpg"
+  },
+  {
+    "nombre": "Camiseta Udinese",
+    "año": "2024/25",
+    "equipacion": "1era",
+    "precio": "20,95",
+    "imagen": "img/seriea/udinese1.jpg"
+  },
+  {
+    "nombre": "Camiseta Udinese",
+    "año": "2024/25",
+    "equipacion": "2da",
+    "precio": "20,95",
+    "imagen": "img/seriea/udinese2.jpg"
+  },
+  {
+    "nombre": "Camiseta Udinese",
+    "año": "2024/25",
+    "equipacion": "3era",
+    "precio": "20,95",
+    "imagen": "img/seriea/udinese3.jpg"
+  },
+  {
+    "nombre": "Camiseta Venezia",
+    "año": "2024/25",
+    "equipacion": "1era",
+    "precio": "20,95",
+    "imagen": "img/seriea/venezia1.jpg"
+  },
+  {
+    "nombre": "Camiseta Venezia",
+    "año": "2024/25",
+    "equipacion": "2da",
+    "precio": "20,95",
+    "imagen": "img/seriea/venezia2.jpg"
+  },
+  {
+    "nombre": "Camiseta Venezia",
+    "año": "2024/25",
+    "equipacion": "3era",
+    "precio": "20,95",
+    "imagen": "img/seriea/venezia3.jpg"
+  }
+]
