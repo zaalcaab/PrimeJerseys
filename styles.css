@@ -101,6 +101,8 @@
   .producto p {
     margin: 5px 0;
     color: black;
+    font-family: "Proxima Nova", sans-serif;
+
   }
   
   .producto button {
