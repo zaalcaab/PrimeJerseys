@@ -28,7 +28,6 @@
   </header>
 
   <main class="container">
-    <h1 class="titulo-principal">Personaliza tu Camiseta</h1>
 
     <!-- Sección de información del producto -->
     <section id="productoInfo" class="tarjeta-producto">
@@ -52,6 +51,31 @@
                    placeholder="Ej: 10" class="campo-opcional">
           </div>
         </div>
+        <div class="form-group">
+          <label for="talla">Talla:</label>
+          <select id="talla" required>
+            <option value="S">S</option>
+            <option value="M">M</option>
+            <option value="L">L</option>
+            <option value="XL">XL</option>
+            <option value="2XL">2XL</option>
+            <option value="3XL">3XL</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="modelo">Modelo (especificar en las notas si desea versión infantil o de mujer):</label>
+
+          <select id="modelo" required>
+            <option value="fan">Versión Fan</option>
+            <option value="jugador">Versión Jugador (+2.5€)</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <a href="https://www.instagram.com/p/DAk81w5IK7B/?img_index=1" target="_blank">Ver tabla de tallas</a>
+          <br>
+          <a href="https://www.instagram.com/stories/highlights/17847416568313279/" target="_blank">Ver modelos</a>
+        </div>
+
       </section>
 
       <section class="seccion-envio">
@@ -106,7 +130,6 @@
     <div id="pagoInfo" class="seccion-pago"></div>
   </main>
   <script src="pedidos.js"></script>
-
 
   <!-- Footer idéntico al resto de la web -->
   <footer class="footer">

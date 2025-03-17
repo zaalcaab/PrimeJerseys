@@ -21,13 +21,24 @@
 
   
   /* Estilos generales */
-  body {
+body {
     font-family: "Proxima Nova", sans-serif;
     background-color: white;
     width: 100%;
     margin: 0;
-    color: white;
-  }
+    color: #333; /* Cambiado a un color más oscuro para el texto */
+}
+
+/* Estilos para los enlaces */
+a {
+    color: #007BFF; /* Cambiado a un color más atractivo */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; /* Subrayar al pasar el ratón */
+}
+
   
   /* Estilos para el encabezado */
   header {
@@ -49,6 +60,7 @@
     padding-left: 10px;
     font-size: 50px;
     margin: 0;
+    color: white;
   }
   
   /* Sección de productos */
@@ -102,7 +114,6 @@
     margin: 5px 0;
     color: black;
     font-family: "Proxima Nova", sans-serif;
-
   }
   
   .producto button {
@@ -335,9 +346,11 @@
   font-size: 1.1rem;
 }
 
-/* Estilos para los campos de entrada */
+/* Estilos para los campos de entrada y dropdowns */
 #personalizarForm input,
-#personalizarForm textarea {
+#personalizarForm textarea,
+#personalizarForm select {
+
     width: 100%;
     padding: 12px;
     border: 2px solid #ddd;

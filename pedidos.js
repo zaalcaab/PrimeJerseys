@@ -30,7 +30,10 @@ document.getElementById('personalizarForm').addEventListener('submit', (e) => {
     const nombrePers = document.getElementById('nombrePersonalizado').value.trim();
     const numeroPers = document.getElementById('numeroPersonalizado').value.trim();
 
-    const nombreReceptor = document.getElementById('nombreReceptor').value.trim();
+const nombreReceptor = document.getElementById('nombreReceptor').value.trim();
+const modeloSeleccionado = document.getElementById('modelo').value;
+const tallaSeleccionada = document.getElementById('talla').value;
+
     const direccion = document.getElementById('direccion').value.trim();
     const ciudad = document.getElementById('ciudad').value.trim();
     const comunidad = document.getElementById('comunidad').value.trim();
@@ -45,6 +48,8 @@ document.getElementById('personalizarForm').addEventListener('submit', (e) => {
     }
 
     // Calcular el precio final (añadiendo 1.5€ por cada personalización si se rellenan)
+    if (modeloSeleccionado === 'jugador') precioFinal += 2.5;
+
     let precioFinal = parseFloat(precioBase.replace(',', '.'));
     if (nombrePers !== '') precioFinal += 1.5;
     if (numeroPers !== '') precioFinal += 1.5;
@@ -61,6 +66,8 @@ document.getElementById('personalizarForm').addEventListener('submit', (e) => {
         <h4>Detalles del pedido:</h4>
         <h3>Tu número de pedido: ${idPedido}</h3>
         <p><strong>Producto:</strong> ${nombreProducto}</p>
+        <p><strong>Talla:</strong> ${tallaSeleccionada}</p>
+        <p><strong>Modelo:</strong> ${modeloSeleccionado}</p>
         <p><strong>Personalización:</strong> ${nombrePers || 'Sin nombre'}, ${numeroPers || 'Sin número'}</p>
         ${notas ? `<p><strong>Notas:</strong> ${notas}</p>` : ''}
         <h4>Datos de envío:</h4>
@@ -81,6 +88,9 @@ document.getElementById('personalizarForm').addEventListener('submit', (e) => {
       base_price: precioBase,
       personalized_name: nombrePers || 'Sin nombre',
       personalized_number: numeroPers || 'Sin número',
+      selected_model: modeloSeleccionado,
+      selected_size: tallaSeleccionada,
+
       shipping_name: nombreReceptor,
       shipping_address: direccion,
       shipping_city: ciudad,
@@ -106,4 +116,3 @@ function generarIDPedido() {
     const randomStr = Math.random().toString(36).substring(2, 10);
     return `ORD-${timestamp}-${randomStr.toUpperCase()}`;
 }
-
