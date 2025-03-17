@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <script src="script.js"></script>
+    <title>Prime Jerseys - Retro</title>
+</head>
+<body data-liga="laliga">
+    <header>
+      <a href="index.html"><img src="img/logo.jpg" alt="logo" class="logo"></a>
+      <h1>Prime Jerseys</h1>
+    </header>
+    
+    <section class="hero-section" style="background: url('img/hero-bg.jpg') no-repeat center center/cover;">
+      <div class="hero-content">
+        <h2>CÁTALOGO DE CAMISETAS RETRO</h2>
+        <p>Nuestro cátalogo de equipaciones retro</p>
+        <a class="hero-button" href="#productos-section">Ver camisetas</a>
+      </div>
+    </section>
+
+    <main>
+      <section id="productos-section">
+        <h2>Retro</h2>
+        <div id="productos" class="productos-grid"></div>
+      </section>
+    </main>
+
+    <script>cargarCamisetas("data/retro.json")</script>
+
+    <!-- Footer con información de contacto -->
+  <!-- Footer con 3 columnas -->
+<footer class="footer">
+  <div class="footer-col">
+    <!-- Logo y copyright -->
+    <img src="img/logo.jpg" alt="Prime Jerseys logo" class="footer-logo">
+    <p>© 2025 Prime Jerseys</p>
+  </div>
+
+  <div class="footer-col">
+    <!-- Información de contacto -->
+    <h4>Contacto</h4>
+    <p>
+      <i class="far fa-envelope"></i> 
+      <a href="mailto:contact.primejersey@gmail.com">contact.primejersey@gmail.com</a>
+    </p>
+    <p>
+      <i class="fab fa-instagram"></i> 
+      <a href="https://www.instagram.com/primejerseys.es" target="_blank">@primejerseys.es</a>
+    </p>
+    <p>
+      <i class="fab fa-tiktok"></i>
+      <a href="https://www.tiktok.com/@primejerseys.es" target="_blank">@primejerseys.es</a>
+    </p>
+  </div>
+
+  <div class="footer-col">
+    <!-- Redes sociales -->
+    <h4>Síguenos</h4>
+    <p>Únete a nuestra comunidad</p>
+    <div class="social-icons">
+      <a href="https://www.instagram.com/primejerseys.es" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.tiktok.com/@primejerseys.es" target="_blank"><i class="fab fa-tiktok"></i></a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
